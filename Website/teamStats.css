@@ -1,0 +1,50 @@
+
+.wrapper{
+    overflow: hidden;
+}
+.wrapper .tabLinks{
+    
+    left:50%;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+
+}
+
+.clicked{
+        background : purple;
+        color: purple; 
+        font-size: 165px;
+}
+
+.wrapper .tabLinks a {
+    display: inline-block;
+    position: relative;
+    font-size: 45px;
+    padding: 5px;
+    background: #666;
+    color: white;
+    margin-right:-4px;
+    text-decoration: none;
+}
+
+.topPlayedChampsBox {
+    overflow:hidden;
+    margin-top: 20px;
+    height: 150px;
+    width: 400px;
+    background:#222;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topPlayedChampsBox #topPlayedChamps li{
+    float:left;
+}
+.topPlayedChampsBox #topPlayedChamps img{
+    display: inline-block;
+    
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
